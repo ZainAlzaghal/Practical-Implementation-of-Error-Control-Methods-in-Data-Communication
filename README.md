@@ -1,2 +1,3 @@
-# Practical-Implementation-of-Error-Control-Methods-in-Data-Communication
-This implementation bridges the gap between theoretical concepts of error control and their practical behavior in real communication systems
+Project Description
+
+This project implements a socket-based data communication system that simulates the transmission of information over an unreliable channel. The system consists of a sender, an intermediate server, and a receiver. Various error detection and correction techniques such as Parity, CRC, Checksum, and Hamming Code are applied at the sender side, while transmission errors are deliberately introduced by the server. At the receiver side, the received data is analyzed to detect or correct errors depending on the selected technique. The project provides a practical demonstration of how different error control methods perform under real transmission conditions.
